@@ -1,0 +1,100 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color pub get
+
+## exception
+
+PathNotFoundException: PathNotFoundException: Deletion failed, path = '/home/pranay/StudioProjects/geofire/windows/flutter/ephemeral/.plugin_symlinks' (OS Error: No such file or directory, errno = 2)
+
+```
+#0      _Directory._deleteSync (dart:io/directory_impl.dart:193:7)
+#1      FileSystemEntity.deleteSync (dart:io/file_system_entity.dart:424:7)
+#2      ForwardingFileSystemEntity.deleteSync (package:file/src/forwarding/forwarding_file_system_entity.dart:70:16)
+#3      ErrorHandlingDirectory.deleteSync.<anonymous closure> (package:flutter_tools/src/base/error_handling_io.dart:481:22)
+#4      _runSync (package:flutter_tools/src/base/error_handling_io.dart:590:14)
+#5      ErrorHandlingDirectory.deleteSync (package:flutter_tools/src/base/error_handling_io.dart:480:12)
+#6      _createPlatformPluginSymlinks (package:flutter_tools/src/flutter_plugins.dart:1041:22)
+#7      createPluginSymlinks (package:flutter_tools/src/flutter_plugins.dart:985:5)
+#8      refreshPluginsList (package:flutter_tools/src/flutter_plugins.dart:1087:5)
+<asynchronous suspension>
+#9      FlutterProject.ensureReadyForPlatformSpecificTooling (package:flutter_tools/src/project.dart:355:5)
+<asynchronous suspension>
+#10     PackagesGetCommand.runCommand (package:flutter_tools/src/commands/packages.dart:326:7)
+<asynchronous suspension>
+#11     FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1336:27)
+<asynchronous suspension>
+#12     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:150:19)
+<asynchronous suspension>
+#13     CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+<asynchronous suspension>
+#14     FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:296:9)
+<asynchronous suspension>
+#15     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:150:19)
+<asynchronous suspension>
+#16     FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:244:5)
+<asynchronous suspension>
+#17     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:91:9)
+<asynchronous suspension>
+#18     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:150:19)
+<asynchronous suspension>
+#19     main (package:flutter_tools/executable.dart:91:3)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.10.3, on Ubuntu 22.04.2 LTS 5.19.0-42-generic, locale en_IN)
+    • Flutter version 3.10.3 on channel stable at /home/pranay/snap/flutter/common/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision f92f44110e (6 days ago), 2023-06-01 18:17:33 -0500
+    • Engine revision 2a3401c9bb
+    • Dart version 3.0.3
+    • DevTools version 2.23.1
+
+[!] Android toolchain - develop for Android devices (Android SDK version 33.0.2)
+    • Android SDK at /home/pranay/Android/Sdk
+    • Platform android-33-ext4, build-tools 33.0.2
+    • Java binary at: /snap/android-studio/126/android-studio/jbr/bin/java
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-17.0.6b802.4-9586694)
+    ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+[✓] Chrome - develop for the web
+    • Chrome at google-chrome
+
+[✓] Linux toolchain - develop for Linux desktop
+    • clang version 10.0.0-4ubuntu1
+    • cmake version 3.16.3
+    • ninja version 1.10.0
+    • pkg-config version 0.29.1
+
+[✓] Android Studio (version 2022.2)
+    • Android Studio at /snap/android-studio/126/android-studio
+    • Flutter plugin version 73.0.2
+    • Dart plugin version 222.4582
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-17.0.6b802.4-9586694)
+
+[✓] Android Studio (version 2021.3)
+    • Android Studio at /snap/android-studio/125/android-studio
+    • Flutter plugin version 72.1.1
+    • Dart plugin version 213.7433
+    • Java version OpenJDK Runtime Environment (build 11.0.13+0-b1751.21-8125866)
+
+[✓] VS Code
+    • VS Code at /snap/code/current
+    • Flutter extension can be installed from:
+      🔨 https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+
+[✓] Connected device (3 available)
+    • M2010J19CI (mobile) • b599c2520621 • android-arm64  • Android 12 (API 31)
+    • Linux (desktop)     • linux        • linux-x64      • Ubuntu 22.04.2 LTS 5.19.0-42-generic
+    • Chrome (web)        • chrome       • web-javascript • Google Chrome 114.0.5735.90
+
+[✓] Network resources
+    • All expected network resources are available.
+
+! Doctor found issues in 1 category.
+```

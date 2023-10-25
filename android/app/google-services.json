@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125437108440",
+    "project_id": "near-me-c6971",
+    "storage_bucket": "near-me-c6971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125437108440:android:c4bb12dca4b23a2a1077ad",
+        "android_client_info": {
+          "package_name": "com.example.geofire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125437108440-5m188caba5vrqtuijvav6vnia5ht2bod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyMaPCPtL8IeglQ7TRYnoApkuNLzf99wQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125437108440-5m188caba5vrqtuijvav6vnia5ht2bod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
