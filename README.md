@@ -1,16 +1,33 @@
-# geofire
+# Near Me
 
-A new Flutter project.
+An app that can help people find the nearest available resources in their area.
 
-## Getting Started
+A Brief of the Prototype:
 
-This project is a starting point for a Flutter application.
+The prototype starts with a map view as the first screen, with a bottom navigation bar to navigate further in the app. There are multiple service pages where users can view listed services and add new ones. When adding a service, users can input the service name, description, contact number, address, and location. The location is automatically fetched from the user's current location, but users can also add a service by clicking on the map. Additionally, users can search for services by name and view details of service providers.
 
-A few resources to get you started if this is your first Flutter project:
+Tech Stack:
+Flutter for frentend and firebase for backend.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Step-by-Step Code Execution Instructions:
+
+
+first clone the repository
+ 
+git clone
+
+then run the following command to get all the dependencies
+
+flutter pub get
+
+then connect your app to firebase and
+
+then run the following command to run the app
+
+flutter run
+
+
+
+Future Scope:
+WE can add more services and also we can add more features like chat with service provider, rating and review system, etc.
