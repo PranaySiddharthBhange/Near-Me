@@ -14,8 +14,6 @@ Near Me
 # Problem Statement :
 Develop a mobile app that enables users to easily discover andconnectwitha variety of local services, resources, and individuals withinanadjustableradius, enhancing community connectivity and resourcesharingalsoabletocreate own service.
 
-# Team Leader Email :
-sapkalsandesh19@gmail.com
 
 # A Brief of the Prototype:
 
