@@ -2,6 +2,16 @@
 
 # Video Link of Prototype
 
+https://github.com/PranaySiddharthBhange/Near-Me/assets/125269727/2fa4e222-ec86-42a5-a797-eebc4b767762
+
+
+
+
+https://github.com/PranaySiddharthBhange/Near-Me/assets/125269727/98f4e6f8-1199-4b1f-a908-e97e82c4c558
+
+
+
+
 <a>https://drive.google.com/file/d/1ja9ISV2k5TgpYErvGApR-iYrDf5BJE6q/view?usp=drivesdk<a/>
 
 # UI Link (Screenshot of Application)
