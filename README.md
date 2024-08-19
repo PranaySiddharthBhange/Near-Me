@@ -73,7 +73,7 @@ Contributions are welcome! If you want to contribute to Nearme, please fork the 
 
 ## License
 
-This project is licensed under the [MIT License](link-to-license-file).
+Do not copy !
 
 ## Contact
 
